@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+@mixin shadow {
+    box-shadow: 5px 5px 5px grey;
+}
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    @include shadow
+}
+.heading_div{
+    float: none;
+    background:white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    @include shadow()
+    
+}
+.heading_div2 {
+    font-size: 18px;
+    @include shadow()
+}
+d {
+    margin: .2px;
+    font-weight: bold;
+}
+ko {
+    font-family: 'Kosugi Maru', sans-serif;
+}
+body{
+    background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+background-image: radial-gradient(49% 81% at 45% 47%, #FFE20345 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #1C1C1C00 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #FFDB00FF 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #FF0049FF 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #FF7000FF 0%, #FF0000FF 100%);
+}
+N {
+    font-family: 'Palette Mosaic', cursive;
+}
