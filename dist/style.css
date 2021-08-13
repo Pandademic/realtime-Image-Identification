@@ -39,3 +39,23 @@ body {
 N {
   font-family: "Palette Mosaic", cursive;
 }
+
+.result_para_tag {
+  box-shadow: 5px 5px 5px grey;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+footer {
+  color: white;
+  background-color: gray;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: aqua;
+}
+footer a:hover {
+  color: orange;
+}
