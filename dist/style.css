@@ -59,3 +59,7 @@ footer a {
 footer a:hover {
   color: orange;
 }
+
+canvas {
+  margin-bottom: 30px;
+}
